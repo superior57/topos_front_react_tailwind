@@ -1,0 +1,11 @@
+.rbc-header {
+    padding: 12px 6px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.rbc-month-view,
+.rbc-time-view,
+.rbc-agenda-view {
+    padding: 24px;
+}
