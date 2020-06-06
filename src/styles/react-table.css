@@ -1,0 +1,53 @@
+/**
+ReactTable Overrides
+ */
+.ReactTable .rt-tbody .rt-td {
+    display: flex;
+    align-items: center;
+}
+
+.ReactTable .rt-tr {
+    min-height: 48px;
+}
+
+.ReactTable .rt-thead.-header {
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ReactTable .-pagination {
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.ReactTable .rt-thead.-filters .rt-th {
+    padding: 16px 8px;
+}
+
+.ReactTable .rt-thead.-filters input, .ReactTable .rt-thead.-filters select {
+    border: none;
+    background: initial;
+    padding: 6px 0 7px 0;
+}
+
+.ReactTable .-pagination .-center {
+    order: 0;
+    justify-content: flex-start;
+}
+
+.ReactTable .-pagination .-previous, .ReactTable .-pagination .-next {
+    max-width: 64px;
+}
+
+.ReactTable .-pagination .-previous {
+    order: 1;
+}
+
+.ReactTable .-pagination .-next {
+    order: 2;
+}

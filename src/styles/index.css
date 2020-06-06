@@ -1,0 +1,179 @@
+@import 'normalize.css';
+
+* {
+    outline: none !important;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Muli, Roboto, Helvetica Neue, Arial, sans-serif;
+    background-color: #262933;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+html, body, #root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+h1, .h1 {
+    font-size: 24px;
+}
+
+h2, .h2 {
+    font-size: 20px;
+}
+
+h3, .h3 {
+    font-size: 16px;
+}
+
+h4, .h4 {
+    font-size: 15px;
+}
+
+h5, .h5 {
+    font-size: 13px;
+}
+
+h6, .h6 {
+    font-size: 12px;
+}
+
+.ps > .ps__rail-y,
+.ps > .ps__rail-x {
+    z-index: 99;
+}
+
+a[role=button] {
+    text-decoration: none;
+}
+
+[role="tooltip"] {
+    z-index: 999;
+}
+
+/* Medium Devices, Desktops Only */
+@media only screen and (min-width: 992px) {
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    ::-webkit-scrollbar:hover {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(0, 0, 0, 0.06);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border: 2px solid transparent;
+        box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.24);
+        border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.37);
+        border-radius: 20px;
+    }
+}
+
+form label {
+    z-index: 99;
+}
+
+
+/* mapa */
+.container-map .border-1 {
+    border:none;
+}
+.container-map .rounded-8 {
+    border-radius:0rem;
+}
+.w-full{
+    height: 100%;
+}
+#fuse-footer {
+    display: none;
+}
+
+.searchMap {
+    position: fixed;
+    width: 30%;
+    height: 60px;
+    top: 10px;
+    left: 75px;
+    background-color:#f5f5f5;
+    border-radius: 4px;
+    z-index: 4;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.searchMap select {
+    color:#979797;
+    width: 100%;
+    height: 100%;
+}
+
+select.my-input, select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../styles/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+select.my-input[disabled], select.form-control[disabled] {
+    cursor: default;
+}
+
+.graficMap {
+    position: fixed;
+    width: calc(100% - 85px);
+    height: 280px;
+    bottom: 10px;
+    z-index: 5;
+    right: 10px;
+    border-radius: 4px;
+}
+
+.graficMap-box {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.h100 {
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchMap{
+        display: none;
+    }
+    .graficMap{
+        display: none;
+    }
+}
+/* mapa */
+
+
+
+
+@import 'print.css';
+
+@import 'tables.css';
+
+@import 'react-table.css';
+
+@import 'prism.css';
+
+@import 'tailwind.css';
