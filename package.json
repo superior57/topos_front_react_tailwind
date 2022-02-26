@@ -37,7 +37,7 @@
         "notistack": "0.8.7",
         "path-to-regexp": "3.0.0",
         "perfect-scrollbar": "1.4.0",
-        "prismjs": "1.16.0",
+        "prismjs": "1.27.0",
         "qs": "6.7.0",
         "raw-loader": "1.0.0",
         "react": "16.8.6",
